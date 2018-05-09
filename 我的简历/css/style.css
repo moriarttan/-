@@ -1,0 +1,196 @@
+
+body{
+    background: rgb(116, 110, 110);
+    color: white;
+    overflow: hidden;
+}
+h3{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bolder;
+    text-indent: 1em;
+    border-bottom: 1px dashed #ccc;
+}
+
+/* home页面 */
+div.home{
+    width: 100%;
+    height: 100%;
+}
+/* home的标题部分 */
+.home h2{
+    width: 100%;
+    height: 10%;
+    line-height: 10vh;
+    margin: 50px 0;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+/* home内容部分 */
+div.h_section{
+    width: 100%;
+    height: 600px;
+}
+/* 照片框 */
+div.h_section .s_left{
+    width: 300px;
+    height: 500px;
+    margin-left: 10%;
+    float: left;  
+    border: 1px solid #ccc;
+}
+/* 照片设置 */
+.s_left img{
+    width: 300px;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+}
+/* 照片下面的文字设置 */
+.s_left .name p{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+.s_left ul{
+    width: 300px;
+    height: 40px;
+    list-style: none;
+    line-height: 40px;
+    text-align: center;
+
+}
+.s_left ul li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+.s_left ul li a{
+    color: pink;
+    text-decoration: none;
+}
+/* 右边的内容部分 */
+div.h_section .s_right{
+    width: 800px;
+    height: 500px;
+    float: left;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+}
+/* 内容上半部分 */
+div.h_section .s_right .r_top{
+    width: 800px;
+    height: 400px;
+}
+div.h_section .s_right .r_top h3{
+    width: 800px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px dashed #ccc;
+}
+/* 内容下半部分 */
+div.h_section .s_right .r_bottom{
+    width: 800px;
+    height: 100px;
+    text-align: center;
+} 
+.s_right .r_bottom span{
+    width: 300px;
+    display: inline-block;
+    line-height: 33px;
+    text-align: left;
+    margin-left: 80px;
+}
+/* skill页面 */
+div.skill{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+}
+.skill h3{
+    display: inline-block;
+    width: 80%;
+    height: 200px;
+    line-height: 200px;
+}
+.skill_ul{
+    list-style: none;
+    display: inline-block;
+    width: 80%;
+    height: 400px;
+}
+.skill_ul>li{
+    width: 100%;
+    height: 40px;
+    background-color: paleturquoise;
+    margin: 40px 0;
+    position: relative;
+}
+.skill_ul>li .span_top{
+    width: 160px;
+    line-height: 40px;
+    text-indent: 1em;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.skill_ul>li .span_bottom{
+    float: right;
+    width: 60px;
+    line-height: 40px;
+}
+/* project页面 */
+.project{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.project h3{
+    display: inline-block;
+    width: 80%;
+    height: 200px;
+    line-height: 200px
+}
+.project .pro_ul{
+    display: inline-block;
+    list-style: none;
+    width: 80%;
+    height: 500px;
+}
+.pro_ul>li{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 40px;
+    float: left;
+}
+/* practice页面 */
+.practice{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+}
+.practice h3{
+    display: inline-block;
+    width: 80%;
+    height: 200px;
+    line-height: 200px;
+}
+.practice section{
+    display: inline-block;
+    width: 80%;
+    height: 500px;
+    background-color: red;
+}
+.practice footer{
+    display: inline-block;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
