@@ -17,6 +17,8 @@ html,body{
     position: absolute;
     right: 0;
     top:  0;
+    transition: 3s;
+    perspective: 1000px;
 }
 .slider>li:nth-child(1){
     transform-origin: center center -50vh;
